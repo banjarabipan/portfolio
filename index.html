@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Bipan Banjara</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#reflection">Reflection</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Bipan Banjara</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#reflection" onclick="toggleMenu()">Reflection</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile_pic.png" alt="Sagar Joshi profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Bipan Banjara</h1>
+        <p class="section__text__p2">Mechanical Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/cover_letter.pdf')"
+          >
+            Download Cover Letter
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/bipan-banjara-4872b177/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Mail Profile"
+            class="icon"
+            onclick="location.href='https://github.com/SrJ24611788?tab=repositories'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>5+ years <br />Customer Service and Spare Parts Officer Mechanical Engineer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Mechanical Engineering<br />M.S Professional Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I’m Bipan Banjara, a passionate mechanical engineer who loves to innovate and provide engineering solutions driven by the community. I was born and raised in the picturesque village of Panauti, Nepal, and this is where my journey started. The technical difficulties that my community’s farmers encountered stoked my interest in machines and their potential to enhance life. I was fascinated by technology’s ability to close productivity and resource disparities at a young age. My desire to learn more drove me to pursue a Bachelor of Mechanical Engineering degree at Kathmandu University, where I gained a solid technical foundation and an in-depth comprehension of mechanical systems.
+            </p>
+            <p>
+              Throughout the course of my career, I have worked in the heavy machinery and cement sectors for a number of years. In these capacities, I have held important positions including managing the installation and commissioning of modern machinery and optimizing thermal efficiency in rotary kilns of cement plant. These experiences strengthened my commitment to seeking engineering solutions that promote efficiency and sustainability in addition to improving my technical proficiency.
+            </p>
+            <p>
+              My move from Nepal to Australia gave me the opportunity to experience several work cultures, which shaped my career and personal development. This change in perspective made it clearer to me how crucial cooperation, cultural sensitivity, and adaptability are to succeeding in a variety of settings. I am excited to explore novel opportunities to develop and lead in the engineering sector as I enter the next phase of my career, studying a Master of Professional Engineering at the University of Technology Sydney (UTS). Using modern engineering techniques, I hope to develop effective and sustainable solutions that will benefit people in Nepal and around the world.
+            </p>
+            <p>
+              I like to go trekking, play football, and read about and explore engineering ideas in my spare time. These endeavor’s never cease to motivate and inspire me to use engineering to improve society.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Customer Service and Spare Parts Officer </h2>
+            <p><strong>MAW Earthmovers Private Limited (JCB)</strong></p>
+            <p><em>June 2022 - Jan 2023</em></p>
+            <ul>
+              <li>Ensured customer satisfaction by managing service, spare parts, and lubricant needs for customer machines.</li>
+              <li>Coordinated spare parts and lubricant arrangements to meet the specific requirements of JCB machines.</li>
+              <li>Assisted service engineers in delivering timely and efficient service to customers.</li>
+              <li>Maintained regular reports (daily, weekly, and monthly) and communicated them to higher authorities, ensuring proper tracking and reporting.</li>
+            </ul>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Mechanical Engineer</h2>
+            <p><strong>Sarbottam Cement Limited</strong></p>
+            <p><em>Jan 2017 - Jun 2022</em></p>
+            <ul>
+              <li>Led installation and commissioning of key industrial equipment such as fly ash silos, rotary kilns, vertical raw mills, and cooling systems.</li>
+              <li>Supervised refractory work in various components like preheaters, coolers, and rotary kilns as a refractory engineer.</li>
+              <li>Assisted with mechanical and HVAC systems, including cooling systems, filters, and conveyors, ensuring proper installation and maintenance.</li>
+              <li>Created detailed technical drawings for plant systems using SolidWorks and managed instrumentation setup across the cement plant.</li>
+              <li>Oversaw major maintenance activities and ensured operational efficiency for critical equipment such as the rotary kiln, raw mill, and cement mills.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+
+          <!--Project One-->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Design and fabrication of Multicrops Threshing Machine</h2>
+            <button class="btn btn-color-2 project-btn" onclick="toggleDetails('project1Details')">Details</button>
+            <div id="project1Details" class="project-details" style="display: none;">
+              <p style="text-align: justify;">
+                Designed and fabricated a multi-crop threshing machine aimed at efficiently threshing various crops. The project was funded by the Kathmandu University Business Incubation Centre (KUBIC) to enhance agricultural productivity.The machine’s design focused on versatility, allowing it to process multiple types of grains, including wheat, rice, and maize. This increased productivity and reduced manual labor for farmers.
+              </p>
+            </div>
+          </div>
+
+          <!--Project Two-->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project2.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Static Structural Analysis of Forklift RAMP</h2>
+            <button class="btn btn-color-2 project-btn" onclick="toggleDetails('project2Details')">Details</button>
+            <div id="project2Details" class="project-details" style="display: none;">
+              <p style="text-align: justify;">
+                Currently working on the static structural analysis of a forklift ramp to assess its load-bearing capacity and ensure structural integrity under various load conditions. The analysis is critical for ensuring safe and efficient operation during material handling.Using advanced simulation tools such as ANSYS, the project focuses on identifying stress points, material deformations, and potential failure zones to enhance the design and durability of the ramp.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#reflection'"
+      />
+    </section>
+    <!-- Reflection Section -->
+    <section id="reflection">
+      <p class="section__text__p1">My Thoughts</p>
+      <h1 class="title">Reflection</h1>
+      <div class="reflection-container">
+        <p>
+          <strong>1.1 Principles of Sustainability to Create Viable Systems</strong><br />
+          I reduced the plant’s environmental effect while I worked at Sarbottam Cement Limited by incorporating sustainability ideas into our operations. My main duty was to evaluate the thermal heat in the Rotary Kiln and make suggestions for how to lower the heat output. The plant’s carbon footprint was reduced by 15% and energy efficiency increased by 10% thanks in large part to this program, highlighting the significance of resource utilization.
+        </p>
+        <p>
+          In addition, I supervised a team that performed preventive maintenance, which greatly increased equipment longevity and decreased replacement frequency by 20%. We maintained the long-term viability of the system by maximizing equipment performance and minimizing resource consumption. This event served as a reminder of the value of proactive tactics in promoting sustainability in an industrial setting, such as process optimization and alternative resource use.
+        </p>
+        <p>
+          <strong>1.2 Professional Practice within intercultural and global contexts</strong><br />
+          I obtained a great deal of experience at Sarbottam Cement Limited working with professionals from a range of backgrounds, including the global team from FLSmidth in Denmark, in a culturally diverse workplace. Effective collaboration and the closure of these gaps need sensitive cultural understanding and clear communication. This experience underscored the value of flexibility and attentive listening in promoting teamwork, especially during the equipment commissioning period.
+        </p>
+        <p>
+          Through exhibiting adaptation and putting cultural sensitivity into practice, I was able to effectively manage various working styles and overcome obstacles. This experience reinforced my ability to work well with people from different cultural backgrounds and gave me the tools I needed to succeed in international settings.
+        </p>
+        <!--
+        <p><strong>References:</strong></p>
+        <ul>
+          <li>Staffell, I., Scamman, D., Abad, A. V., Balcombe, P., Dodds, P. E., Ekins, P., ... &amp; Ward, K. R.
+            (2019). The role of hydrogen and fuel cells in the global energy system. Energy &amp;
+            Environmental Science, 12(2), 463-491.</li>
+          <li>Chakraborty, S., Kumar, N. M., Jayakumar, A., Dash, S. K., &amp; Elangovan, D. (2021).
+            Selected aspects of sustainable mobility reveals implementable approaches and
+            conceivable actions. Sustainability, 13(22), 12918.</li>
+          <li>Eringa, K., Caudron, L. N., Rieck, K., Xie, F., &amp; Gerhardt, T. (2015). How relevant are
+            Hofstede’s dimensions for inter-cultural studies? A replication of Hofstede’s
+            research among current international business students. Research in Hospitality
+            Management, 5(2), 187-198.</li>
+        </ul>
+        -->
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:bipanbanjara2@gmail.com">bipanbanjara2@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/bipan-banjara-4872b177/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#reflection">Reflection</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Bipan Banjara. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
